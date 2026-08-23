@@ -5,4 +5,11 @@ function addToAhmed() {
     console.log(ahmed)
 }
 
-addToAhmed
+addToAhmed();
+
+function removeFromAhmed() {
+    ahmed = ahmed - 1
+    console.log(ahmed)
+}
+
+removeFromAhmed();
